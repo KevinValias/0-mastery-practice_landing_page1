@@ -1,0 +1,44 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Monserrat", sans-serif;
+  background: url(images/mando-header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  text-decoration: underline;
+}
+
+.buffer {
+  height: 50px;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  box-shadow: 5px 10px rgb(77, 42, 33);
+}
+.btn:hover {
+  color: rgb(99, 63, 55);
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+.btn-primary {
+  background-color: rgb(99, 63, 55);
+  border-color: rgb(176, 179, 154);
+}
+.btn-primary:hover {
+  background-color: rgb(176, 179, 154);
+  border-color: rgb(99, 63, 55);
+  border-width: 4px;
+}
